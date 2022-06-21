@@ -124,22 +124,21 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Northeastern University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/NEULogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2021 - present",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Took courses about Algorithm, Database Management, Operating Systems, Software Development.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Nanjing University of Posts and Telecommunications",
+      logo: require("./assets/images/NJUPTLogo.png"),
+      subHeader: "Bachelor of Science in Electronic Engineering",
+      duration: "September 2016 - June 2020",
+      desc: "Ranked top 10% in the program. Took courses about DataStructure, Java, Database",
+      descBullets: []
     }
   ]
 };
@@ -171,29 +170,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Aeyesafe",
+      companylogo: require("./assets/images/AeyesafeLogo.png"),
+      date: "May 2022 – present",
+      desc: ".",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Take the lead to maintain core service API. Collaborated with UI / UX and Data science team.",
+        "Developed the Sleep Monitor project using MongoDB as database, React + Bootstrap as Frontend framework technology, Flask + MVC Pattern as Backend framework.",
+        "Collected data from."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Baicizhan",
+      companylogo: require("./assets/images/BaicizhanLogo.png"),
+      date: "Jan 2021 – July 2021",
+      descBullets: [
+        "Led Nocturne project, added 10+ functionalities: display user status information, DB connection(MySQL), Caching(Redis) and Message Queue(RabbitMQ).Developed the RESTful web service with Spring Boot.",
+        "Designed workflow, communicated, and cooperated with 10+ engineers from different teams to push project forward",
+        "Configure deploy file using CloudFormation to host video and pictures to the cloud with Amazon Simple Storage Service(S3)."
+      ]
     }
   ]
 };
