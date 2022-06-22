@@ -18,7 +18,7 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle"></p>
             </div>
-            <h2 className="bio-text">"{String(prof.bio)}"</h2>
+            <h2 className="bio-text">"A passionate programmer. NEU CS graduate student."</h2>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
