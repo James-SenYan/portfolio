@@ -23,7 +23,7 @@ const greeting = {
   username: "James Yan",
   title: "Hi all, I'm James",
   subTitle: emoji(
-    "A passionate new graduate seeking Full Stack Software Developer opportunity 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate new graduate seeking Software Developer opportunity 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/James-SenYan",
   linkedin: "https://www.linkedin.com/in/sen-yan-1347931ba/",
-  gmail: "senyanjames@gmail.com",
+  gmail: "james2022fall@gmail.com",
   facebook: "http://senyan.live",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -355,7 +355,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-4254444509",
-  email_address: "senyanjames@gmail.com"
+  email_address: "james2022fall@gmail.com"
 };
 
 // Twitter Section
