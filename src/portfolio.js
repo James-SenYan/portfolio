@@ -26,7 +26,7 @@ const greeting = {
     "A passionate new graduate seeking Software Developer opportunity 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "http://resume2022.senyan.live", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,9 +49,9 @@ const skillsSection = {
   subTitle: "CRAZY COMPUTER SCIENCE STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Frontend / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Build intensive Back end using famout framework such as SpringBoot / Flask / Express"),
+    emoji("⚡ Build intensive Back end using famous framework such as Spring Boot / Flask / Express"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / CI / CD"
     )
@@ -172,7 +172,7 @@ const workExperiences = {
       date: "May 2022 – present",
       desc: ".",
       descBullets: [
-        "Take the lead to maintain core service API. Collaborated with UI / UX and Data science team.",
+        "Took the lead to maintain core service API. Collaborated with UI / UX and Data science team.",
         "Developed the Sleep Monitor project using MongoDB as database, React + Bootstrap as Frontend framework technology, Flask + MVC Pattern as Backend framework.",
         "Added AWS CloudFront to support website logging and decrease website response latency. Implemented CI/CD pipeline using Jenkins to ease 30% test and deployment complexity."
       ]
