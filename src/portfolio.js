@@ -86,10 +86,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -178,7 +174,7 @@ const workExperiences = {
       descBullets: [
         "Take the lead to maintain core service API. Collaborated with UI / UX and Data science team.",
         "Developed the Sleep Monitor project using MongoDB as database, React + Bootstrap as Frontend framework technology, Flask + MVC Pattern as Backend framework.",
-        "Collected data from."
+        "Added AWS CloudFront to support website logging and decrease website response latency. Implemented CI/CD pipeline using Jenkins to ease 30% test and deployment complexity."
       ]
     },
     {
@@ -188,8 +184,8 @@ const workExperiences = {
       date: "Jan 2021 – July 2021",
       descBullets: [
         "Led Nocturne project, added 10+ functionalities: display user status information, DB connection(MySQL), Caching(Redis) and Message Queue(RabbitMQ).Developed the RESTful web service with Spring Boot.",
-        "Designed workflow, communicated, and cooperated with 10+ engineers from different teams to push project forward",
-        "Configure deploy file using CloudFormation to host video and pictures to the cloud with Amazon Simple Storage Service(S3)."
+        "Designed workflow, communicated, and cooperated with 10+ engineers from different teams to push project forward.",
+        "Configured CloudFormation with Amazon Simple Storage Service (S3) to host videos and pictures to the cloud."
       ]
     }
   ]
