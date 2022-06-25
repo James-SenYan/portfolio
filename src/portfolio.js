@@ -179,8 +179,8 @@ const workExperiences = {
     },
     {
       role: "Software Engineer Intern",
-      company: "Tencent",
-      companylogo: require("./assets/images/TencentLogo.png"),
+      company: "XGIMI",
+      companylogo: require("./assets/images/GIMILogo.png"),
       date: "Apr 2021 – Aug 2021",
       descBullets: [
         "Joined Ads Play Control Project. Collaborated in an agile team and DevOps team to develop Backend microservices",
