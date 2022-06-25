@@ -179,9 +179,20 @@ const workExperiences = {
     },
     {
       role: "Software Engineer Intern",
+      company: "Tencent",
+      companylogo: require("./assets/images/TencentLogo.png"),
+      date: "Apr 2021 – Aug 2021",
+      descBullets: [
+        "Joined Ads Play Control Project. Collaborated in an agile team and DevOps team to develop Backend microservices",
+        "Computed exposure and click data of all Ad resources based on Hadoop and sent it to Ad Play System. Utilized architecture of Message Queue (Kafka), Redis to minimize average latency to 5s",
+        "Migrated searching service from MySQL to Elasticsearch to achieve processing large volumes of data in parallel"
+      ]
+    },
+    {
+      role: "Software Engineer Intern",
       company: "Baicizhan",
       companylogo: require("./assets/images/BaicizhanLogo.png"),
-      date: "Jan 2021 – July 2021",
+      date: "Jan 2021 – Apr 2021",
       descBullets: [
         "Led Nocturne project, added 10+ functionalities: display user status information, DB connection(MySQL), Caching(Redis) and Message Queue(RabbitMQ).Developed the RESTful web service with Spring Boot.",
         "Designed workflow, communicated, and cooperated with 10+ engineers from different teams to push project forward.",
