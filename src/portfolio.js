@@ -131,7 +131,7 @@ const educationInfo = {
     {
       schoolName: "Nanjing University of Posts and Telecommunications",
       logo: require("./assets/images/NJUPTLogo.png"),
-      subHeader: "Bachelor of Science in Electronic Engineering",
+      subHeader: "Bachelor of Science in Computer Engineering",
       duration: "September 2016 - June 2020",
       desc: "Ranked top 10% in the program. Took courses about DataStructure, Java, Database",
       descBullets: []
